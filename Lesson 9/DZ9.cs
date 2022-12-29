@@ -49,7 +49,7 @@ int CountNaturalSum(int m, int n)
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
 
-Console.WriteLine("Введите два положительных числа: M и N.");
+Console.WriteLine( "Введите два положительных числа: M и N" );
 int m = InputInt("Введите M: ");
 int n = InputInt("Введите N: ");
 Console.WriteLine($"A({m}, {n}) = {Akkerman(m, n)}");
